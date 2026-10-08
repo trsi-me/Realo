@@ -21,8 +21,8 @@ CREATE TABLE properties (
     image VARCHAR(255)
 );
 
--- إضافة مستخدم مسؤول تجريبي (كلمة المرور: admin123)
-INSERT INTO users (username, password, role) VALUES ('admin', 'admin123', 'admin');
+-- إضافة مستخدم مسؤول تجريبي (كلمة المرور: )
+INSERT INTO users (username, password, role) VALUES ('admin', '', 'admin');
 
 -- بيانات عقارات تجريبية
 INSERT INTO properties (title, price, location, type, description, image) VALUES
